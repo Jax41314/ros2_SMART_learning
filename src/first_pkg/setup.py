@@ -22,6 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "new_node = first_pkg.new_node:main"
         ],
     },
 )
